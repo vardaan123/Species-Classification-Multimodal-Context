@@ -31,6 +31,10 @@ from pytorchtools import EarlyStopping
 _DEFAULT_IMAGE_TENSOR_NORMALIZATION_MEAN = [0.485, 0.456, 0.406]
 _DEFAULT_IMAGE_TENSOR_NORMALIZATION_STD = [0.229, 0.224, 0.225]
 
+'''
+Code credit: https://github.com/p-lambda/wilds/blob/472677590de351857197a9bf24958838c39c272b/examples/train.py
+'''
+
 #################
 # image to id
 #################

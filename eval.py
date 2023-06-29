@@ -26,6 +26,10 @@ from wilds.common.metrics.all_metrics import Accuracy, Recall, F1
 from PIL import Image
 from dataset import iWildCamOTTDataset
 
+'''
+Code credit: https://github.com/p-lambda/wilds/blob/472677590de351857197a9bf24958838c39c272b/examples/train.py
+'''
+
 def evaluate(model, val_loader, target_list, args):
     model.eval()
     torch.set_grad_enabled(False)
