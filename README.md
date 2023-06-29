@@ -1,6 +1,6 @@
 # Species Classification using Multimodal Heterogeneous Context
 
-We present a species classification model that is based on reformulation of image classification as link prediction in a multimodal KG. The multimodal knowledge graph may include diverse forms of heterogeneous contexts that pertain to different modalities, such as numerical information for locations and time, categorical data for species/taxon IDs, and visual content such as images.
+We present a species classification model that utilizes heterogeneous image contexts organized in a multimodal knowledge graph. The multimodal knowledge graph may include diverse forms of heterogeneous contexts that pertain to different modalities, such as numerical information for locations and time, categorical data for species/taxon IDs, and visual content such as images.
 
 ## Installation
 
