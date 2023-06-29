@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ### Species classification on a single image input
-Note: Some sample camera trap species images are available in the dir. `data/sample_images/`.
+Note: Some sample camera trap species images are available in the dir. `data/sample_images/`. During training, we utlize multiple heterogeneous contexts in the multimodal KG. However, at inference time, only the image is used to perform species classification.
 
 1. Download the required data `bash download_data.sh`.
 2. Evaluate the pretrained model on a given image.
