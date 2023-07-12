@@ -65,3 +65,5 @@ python -u main.py --data-dir data/iwildcam_v2.0/ --img-dir data/iwildcam_v2.0/tr
 ```
 python eval.py --ckpt-path <PATH TO TRAINED CKPT> --split test --data-dir data/iwildcam_v2.0/ --img-dir data/iwildcam_v2.0/train/
 ```
+# Acknowledgements
+*This work has been funded by grants from the National Science Foundation, including the ICICLE AI Institute (OAC 2112606)*
